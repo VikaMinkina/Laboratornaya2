@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ЛЭТУАЛЬ - Подробное описание товара</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Функция открывает изображение в новом окне при клике
+    function openFullImage() {
+      window.open('product2.jpg', '_blank');
+    }
+  </script>
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <table border="0" width="900" cellspacing="0" cellpadding="0" align="center" bgcolor="#ff8000">
+    <tr>
+      <td width="150" align="center">
+        <img src="logo.png" alt="Логотип Лэтуаль" width="100">
+      </td>
+      <td align="center">
+        <h1>ЛЭТУАЛЬ</h1>
+        <p><em>Мир красоты и стиля</em></p>
+      </td>
+      <td width="200">
+        <form action="login.html" method="post">
+          <table cellpadding="5" width="100%">
+            <tr>
+              <td align="left">
+                <input type="text" name="username" placeholder="Логин" size="15">
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <input type="password" name="password" placeholder="Пароль" size="15">
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <input type="submit" value="Войти">
+                &nbsp;<a href="register.html">Регистрация</a>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Главное меню -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center" bgcolor="#ffbb34">
+    <tr>
+      <td align="center"><a href="index.html">Главная</a></td>
+      <td align="center"><a href="catalog.html">Каталог</a></td>
+      <td align="center"><a href="contacts.html">Контакты</a></td>
+      <td align="center"><a href="guest.html">Отзывы</a></td>
+    </tr>
+  </table>
+  <hr>
+
+<!-- Обёртка для оформления описания товара -->
+<div class="product-details">
+  <!-- Содержимое страницы товара -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center">
+    <!-- Заголовок страницы -->
+    <tr>
+      <td colspan="2" align="center">
+        <h1>Название товара: VIVIENNE SABO Блеск для губ Le Grand Volume</h1>
+      </td>
+    </tr>
+    <!-- Строка с описанием и фотографией -->
+    <tr>
+      <td valign="top">
+        <h2>Описание товара</h2>
+        <p class="short-description">
+          ЭКСТРЕМАЛЬНО ГЛЯНЦЕВЫЙ И СОЧНЫЙ БЛЕСК ДЛЯ ГУБ
+        </p>
+      </td>
+      <td valign="top" align="center">
+        <img src="product2.jpg" alt="Изображение товара" width="300" style="cursor:pointer;" onclick="openFullImage();">
+      </td>
+    </tr>
+    <!-- Характеристики товара -->
+    <tr>
+      <td colspan="2">
+        <h2>Характеристики товара</h2>
+        <p><b>Основные параметры:</b></p>
+        <!-- Для стилизации списка рекомендуется добавить класс -->
+        <ol class="characteristics" type="i">
+          <li>Тип продукта: Блеск для губ</li>
+          <li>Пол: Женский</li>
+          <li>Водостойкость: Нет</li>
+        </ol>
+      </td>
+    </tr>
+    <!-- Подробное описание товара -->
+    <tr>
+      <td colspan="2">
+        <h2>Подробное описание товара</h2>
+        <p class="detailed-description">
+          ЭКСТРЕМАЛЬНО ГЛЯНЦЕВЫЙ И СОЧНЫЙ БЛЕСК ДЛЯ ГУБ! <br>
+          12 роскошных оттенков с суперглянцевым влажным финишем и головокружительным ягодным ароматом создают эффект объемных сексуальных губ. <br>
+          Нежная желейно-масляная текстура блеска прекрасно распределяется благодаря большому пушистому аппликатору. <br>
+          Формула обогащена маслами макадамии и жожоба, которые смягчают, питают и увлажняют нежную кожу губ. <br>
+          Устоять просто невозможно! <br>
+          Совет: <br>
+          Наносите блеск от середины губ к краям. Для того, чтобы добавить губам объём без использования контурного карандаша, нанесите блеск, немного заходя за границы верхней губы. <br>
+          Блеск можно использовать отдельно или наносить поверх помады. Чтобы получить необычный оттенок, попробуйте нанести блеск на помаду контрастного оттенка.
+        </p>
+      </td>
+    </tr>
+    <!-- Пример многоуровневого нумерованного списка -->
+    <tr>
+      <td colspan="2">
+        <ol class="characteristics" type="1">
+          <li>Преимущества блеска:
+            <ol class="characteristics" type="I">
+              <li>Интенсивный глянец</li>
+              <li>Длительный эффект</li>
+            </ol>
+          </li>
+          <li>Рекомендации по использованию</li>
+          <li>Отзывы покупателей</li>
+        </ol>
+      </td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+
+  <!-- Подвал страницы -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center" bgcolor="#ffbb34">
+    <tr>
+      <td align="center">
+        &copy; 2025 Все права защищены
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

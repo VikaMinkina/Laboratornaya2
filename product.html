@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ЛЭТУАЛЬ - Подробное описание товара</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Функция открывает изображение в новом окне при клике
+    function openFullImage() {
+      window.open('product1.jpg', '_blank');
+    }
+  </script>
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <table border="0" width="900" cellspacing="0" cellpadding="0" align="center" bgcolor="#ff8000">
+    <tr>
+      <td width="150" align="center">
+        <img src="logo.png" alt="Логотип Лэтуаль" width="100">
+      </td>
+      <td align="center">
+        <h1>ЛЭТУАЛЬ</h1>
+        <p><em>Мир красоты и стиля</em></p>
+      </td>
+      <td width="200">
+        <form action="login.html" method="post">
+          <table cellpadding="5" width="100%">
+            <tr>
+              <td align="left">
+                <input type="text" name="username" placeholder="Логин" size="15">
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <input type="password" name="password" placeholder="Пароль" size="15">
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <input type="submit" value="Войти">
+                &nbsp;<a href="register.html">Регистрация</a>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </td>
+    </tr>
+  </table>
+  
+  <!-- Главное меню -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center" bgcolor="#ffbb34">
+    <tr>
+      <td align="center"><a href="index.html">Главная</a></td>
+      <td align="center"><a href="catalog.html">Каталог</a></td>
+      <td align="center"><a href="contacts.html">Контакты</a></td>
+      <td align="center"><a href="guest.html">Отзывы</a></td>
+    </tr>
+  </table>
+  <hr>
+  
+  <div class="product-details">
+  <!-- Содержимое страницы товара -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center">
+    <!-- Заголовок страницы -->
+    <tr>
+      <td colspan="2" align="center">
+        <h1>Название товара: Ароматическая вода "Люкс"</h1>
+      </td>
+    </tr>
+    <!-- Строка, в которой текст и фото расположены в двух столбцах -->
+    <tr>
+      <td valign="top">
+        <h2>Описание товара</h2>
+        <p class="short-description">Парфюмерная вода, спрей 100 мл</p>
+      </td>
+      <td valign="top" align="center">
+        <img src="product1.jpg" alt="Изображение товара" width="300" style="cursor:pointer;" onclick="openFullImage();">
+      </td>
+    </tr>
+    <!-- Характеристики товара -->
+    <tr>
+      <td colspan="2">
+        <h2>Характеристики товара</h2>
+        <p><b>Основные параметры:</b></p>
+        <ol class="characteristics" type="i">
+          <li>Объём: 100 мл</li>
+          <li>Крепость: лёгкий, средний</li>
+          <li>Нотки: черная смородина, жасмин, фиалка</li>
+        </ol>
+      </td>
+    </tr>
+    <!-- Подробное описание товара -->
+    <tr>
+      <td colspan="2">
+        <h2>Подробное описание товара</h2>
+        <p class="detailed-description">
+          Создавая аромат, создатель решил обратиться к воспоминаниям своего детства, где особое место занимает его любимый сад, который вдохновил мастера на создание сказочной композиции. В этом прекрасном месте росли кусты спелой черной смородины и сладкой малины, море пышных цветов и в жаркий солнечный день можно было наслаждаться вкусом любимого ванильного мороженого! Hayati – в переводе с арабского «Жизнь» - аромат, который дарит ощущение лета, радости и безграничного удовольствия. Флакон выполнен в технике золотого тиснения и украшен красивым орнаментом, подчеркивающим сюжет парфюмерной композиции.
+        </p>
+        <ol class="characteristics" type="1">
+          <li>Преимущества аромата:
+            <ol class="characteristics" type="I">
+              <li>Изысканная композиция</li>
+              <li>Длительная работа аромата</li>
+            </ol>
+          </li>
+          <li>Рекомендации по использованию</li>
+          <li>Отзывы покупателей</li>
+        </ol>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  </div>
+
+  <!-- Подвал страницы -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center" bgcolor="#ffbb34">
+    <tr>
+      <td align="center">
+        &copy; 2025 Все права защищены
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

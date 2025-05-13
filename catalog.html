@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ЛЭТУАЛЬ - Каталог</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <table border="0" width="900" cellspacing="0" cellpadding="0" align="center" bgcolor="#ff8000">
+    <tr>
+      <td width="150" align="center">
+        <img src="logo.png" alt="Логотип Лэтуаль" width="100">
+      </td>
+      <td align="center">
+        <h1>ЛЭТУАЛЬ</h1>
+        <p><em>Мир красоты и стиля</em></p>
+      </td>
+      <td width="200">
+        <form action="login.html" method="post">
+          <table cellpadding="5" width="100%">
+            <tr>
+              <td align="left">
+                <input type="text" name="username" placeholder="Логин" size="15">
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <input type="password" name="password" placeholder="Пароль" size="15">
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <input type="submit" value="Войти">
+                &nbsp;<a href="register.html">Регистрация</a>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Главное меню -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center" bgcolor="#ffbb34">
+    <tr>
+      <td align="center"><a href="index.html">Главная</a></td>
+      <td align="center"><a href="catalog.html">Каталог</a></td>
+      <td align="center"><a href="contacts.html">Контакты</a></td>
+      <td align="center"><a href="guest.html">Отзывы</a></td>
+    </tr>
+  </table>
+  <hr>
+
+  <!-- Основное содержимое страницы каталога -->
+  <h1 align="center">Каталог продукции</h1>
+  <p align="center">Выберите товар для детального просмотра.</p>
+  
+<div class="catalog-items">
+  <!-- Таблица с миниатюрами товаров -->
+  <table border="0" width="900" cellspacing="10" cellpadding="10" align="center">
+    <tr>
+      <td align="center">
+        <a href="product.html">
+          <img src="product1.jpg" alt="Товар 1" width="150"><br>
+          ATTAR Hayati<br>
+	  Парфюмерная вода
+        </a>
+      </td>
+      <td align="center">
+        <a href="product1.html">
+          <img src="product2.jpg" alt="Товар 2" width="150"><br>
+          VIVIENNE SABO<br>
+	  Блеск для губ Le Grand Volume
+        </a>
+      </td>
+      <td align="center">
+        <a href="product2.html">
+          <img src="product3.jpg" alt="Товар 3" width="150"><br>
+          TOO COOL FOR SCHOOL<br>
+	  BB-крем After School
+        </a>
+      </td>
+    </tr>
+    <!-- Можно добавить дополнительные ряды для большего количества товаров -->
+  </table>
+  <hr>
+</div>
+
+  <!-- Подвал сайта -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center" bgcolor="#ffbb34">
+    <tr>
+      <td align="center">
+        &copy; 2025 Все права защищены
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

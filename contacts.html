@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ЛЭТУАЛЬ - Контакты</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <table border="0" width="900" cellspacing="0" cellpadding="0" align="center" bgcolor="#ff8000">
+    <tr>
+      <td width="150" align="center">
+        <img src="logo.png" alt="Логотип Лэтуаль" width="100">
+      </td>
+      <td align="center">
+        <h1>ЛЭТУАЛЬ</h1>
+        <p><em>Мир красоты и стиля</em></p>
+      </td>
+      <td width="200">
+        <form action="login.html" method="post">
+          <table cellpadding="5" width="100%">
+            <tr>
+              <td align="left">
+                <input type="text" name="username" placeholder="Логин" size="15">
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <input type="password" name="password" placeholder="Пароль" size="15">
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <input type="submit" value="Войти">
+                &nbsp;<a href="register.html">Регистрация</a>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Главное меню -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center" bgcolor="#ffbb34">
+    <tr>
+      <td align="center"><a href="index.html">Главная</a></td>
+      <td align="center"><a href="catalog.html">Каталог</a></td>
+      <td align="center"><a href="contacts.html">Контакты</a></td>
+      <td align="center"><a href="guest.html">Отзывы</a></td>
+    </tr>
+  </table>
+  <hr>
+
+<div class='contact-form'>
+  <!-- Форма обратной связи -->
+  <h1  class='contact-form' align="center">Напишите нам</h1>
+  <form action="send_email.php" method="post">
+    <table  class='contact-form' border="0" align="center" cellpadding="5">
+      <tr>
+        <td>Имя:</td>
+        <td><input type="text" name="name" required></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td>Тема:</td>
+        <td><input type="text" name="subject" required></td>
+      </tr>
+      <tr>
+        <td>Сообщение:</td>
+        <td><textarea name="message" rows="5" cols="30" required></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Отправить">
+        </td>
+      </tr>
+    </table >
+  </form>
+
+  <!-- Контактная информация -->
+  <h2  class='contact-form' align="center">Наши реквизиты</h2>
+  <p  class='contact-form' align="center">
+    <b>Телефон:</b> +7 (800) 200-23-45<br>
+    <b>Адрес:</b> 119261 г. Москва, Ленинский проспект д. 72/2<br>
+    <b>Email:</b> info@letual.ru
+  </p>
+
+  <!-- Встраивание карты: пример с Google Maps (iframe). -->
+  <div class='contact-form' align="center">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.123456789!2d37.540659!3d55.685797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab245ca4e2e3b%3A0xb211d3a3e82bdc4!2zMTE5MjYxINCh0LDQstC-0YHQvtCy0LAsINCk0L7RgNC-0L3QsNGC0L7QstCwLCA3Mi8y!5e0!3m2!1sru!2sru!4v1680000000000" 
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+</div>
+  <hr>
+</div>
+
+  <!-- Подвал сайта -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center" bgcolor="#ffbb34">
+    <tr>
+      <td align="center">
+        &copy; 2025 Все права защищены
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

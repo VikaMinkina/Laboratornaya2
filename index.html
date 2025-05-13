@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ЛЭТУАЛЬ - Главная</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Шапка сайта: логотип, название и форма входа -->
+  <table border="0" width="900" cellspacing="0" cellpadding="0" align="center" bgcolor="#ff8000">
+    <tr>
+      <td width="150" align="center">
+        <!-- Изображение логотипа (файл logo.png) -->
+        <img src="logo.png" alt="Логотип Лэтуаль" width="100">
+      </td>
+      <td align="center">
+        <h1>ЛЭТУАЛЬ</h1>
+        <p><em>Добро пожаловать в мир красоты и стиля!</em></p>
+      </td>
+      <td width="200">
+        <form action="login.html" method="post">
+          <table cellpadding="5" width="100%">
+            <tr>
+              <td align="left">
+                <input type="text" name="username" placeholder="Логин" size="15">
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <input type="password" name="password" placeholder="Пароль" size="15">
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <input type="submit" value="Войти">
+                &nbsp;<a href="register.html">Регистрация</a>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Главное меню -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center" bgcolor="#ffbb34">
+    <tr>
+      <td align="center"><a href="index.html">Главная</a></td>
+      <td align="center"><a href="catalog.html">Каталог</a></td>
+      <td align="center"><a href="contacts.html">Контакты</a></td>
+      <td align="center"><a href="guest.html">Отзывы</a></td>
+    </tr>
+  </table>
+  <hr>
+
+  <!-- Основное содержимое страницы -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center">
+    <tr>
+      <!-- Боковое меню -->
+      <td width="150" valign="top" align="center" bgcolor="#ff8000">
+        <a href="about.html">О нас</a><br>
+        <a href="history.html">История фирмы</a><br>
+        <a href="staff.html">Сотрудники</a>
+      </td>
+      <!-- Центральная колонка -->
+      <td valign="top">
+        <h2>Добро пожаловать на сайт «ЛЭТУАЛЬ»</h2>
+        <img src="beauty.jpg" alt="Красота и стиль" align="right" width="200">
+        <p><b>ЛЭТУАЛЬ</b> – это известный магазин парфюмерии и косметики. Здесь представлены лучшие ароматы, средства по уходу за кожей и стильная косметика.</p>
+        <p>Наш магазин отличается высоким уровнем обслуживания, индивидуальным подходом и качественным ассортиментом. Откройте для себя новые грани красоты!</p>
+        <p><i>Оцените наши предложения и найдите то, что подчеркнёт вашу индивидуальность.</i></p>
+        
+        <!-- Пример таблицы с произвольной информацией -->
+        <br><br>
+        <table border="3" cellpadding="10" cellspacing="5">
+          <tr>
+            <td>Скидки</td>
+            <td>Новые коллекции</td>
+            <td rowspan="2">Специальное предложение</td>
+          </tr>
+          <tr>
+            <td>Акция 1</td>
+            <td>Коллекция весна-лето</td>
+          </tr>
+          <tr>
+            <td colspan="3" align="center">Следите за новинками!</td>
+          </tr>
+        </table>
+        <br>
+      </td>
+      <!-- Правая колонка -->
+      <td width="190" valign="top" align="center" bgcolor="#ff8000">
+	<form name="f1" method="post" action="search.php">
+		<input type="search" name="search_q"/></br></br>
+	<input type="submit" value="Поиск"/></br>
+	</form>
+        <br>
+        <a href="#"><img src="banner1.jpg" alt="Баннер 1" width="150"></a><br><br>
+        <a href="#"><img src="banner2.jpg" alt="Баннер 2" width="150"></a><br><br>
+        <a href="#"><img src="banner3.jpg" alt="Баннер 3" width="150"></a>
+      </td>
+    </tr>
+  </table>
+  <hr>
+
+  <!-- Подвал сайта -->
+  <table border="0" width="900" cellspacing="0" cellpadding="5" align="center" bgcolor="#ffbb34">
+    <tr>
+      <td align="center">
+        &copy; 2025 Все права защищены
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
